@@ -25,9 +25,7 @@ const toogleMenu = () => {
 
 
 const Header = (props) => {
-    function refreshPage() {
-        props.setRefresh(true)
-      }
+    
     return (
         <div id="header">
             <div id="header-search">
@@ -40,7 +38,7 @@ const Header = (props) => {
                 <div id="Menu">
                     <Link  onClick={()=> toogleMenu()} className="link" to="/"> <FontAwesomeIcon icon={faHome} /> Home</Link>
                     <Link  onClick={()=> toogleMenu()} className="link"  to="/game"> <FontAwesomeIcon icon={faGamepad} /> Game</Link>
-                    <Link  onClick={()=>{toogleMenu(); refreshPage()}} className="link" to="/news"> <FontAwesomeIcon icon={faNewspaper} />  News</Link>
+                    <Link  onClick={()=> toogleMenu()} className="link" to="/news"> <FontAwesomeIcon icon={faNewspaper} />  News</Link>
                     <Link  onClick={()=> toogleMenu()} className="link" to="/studio"> <FontAwesomeIcon icon={faUsers} /> The studio</Link>
                     <Link  onClick={()=> toogleMenu()} className="link" to="/contact">  <FontAwesomeIcon icon={faEnvelopeOpen} /> Contact</Link>
                 </div>

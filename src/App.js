@@ -13,7 +13,6 @@ import React, { useState, useEffect } from 'react';
 const App = () =>  {
 
   const [feed, setFeed] = useState(< a className="twitter-timeline" data-lang="fr" data-width="500" data-height="1500" data-theme="dark" href="https://twitter.com/DumballRush?ref_src=twsrc%5Etfw">Tweets by DumballRush</a>)
-  const [refresh, setRefresh] = useState(false);  
 
  
 
@@ -21,7 +20,7 @@ const App = () =>  {
 
     <div className="App" style={{boxSizing:"border-box"}}>
       <Router>
-      <Header setRefresh={setRefresh} />
+      <Header  />
         <div>
           <Route exact path="/">
             <Homepage />
@@ -30,7 +29,7 @@ const App = () =>  {
             <Game />
           </Route>
           <Route exact path="/news">
-            <News setRefresh={setRefresh} refresh={refresh} feed={feed} />
+            <News feed={feed} />
           </Route>
           <Route exact path="/studio">
             <Studio />

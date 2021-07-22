@@ -4,11 +4,6 @@ import {Link} from "react-router-dom";
 
 const News = (props) => {
   
-
-    if(props.refresh === true){
-        window.location.reload();
-        <Link to="/news"/>
-    }
     return (
         
         <div id="tweet">
