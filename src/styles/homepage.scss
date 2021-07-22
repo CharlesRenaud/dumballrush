@@ -1,0 +1,46 @@
+#background{
+    background-size: contain;
+    padding: 2rem;
+    height:100vh;
+}
+#trailer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+#trailer-img{
+    object-fit: cover;
+    width: 100%
+    
+}
+#add-steam{
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    border:2px solid #085286;
+    border-radius: 30px;
+    color:#1876BA;
+    font-weight: bold;
+    width: 60%;
+
+}
+#steam-logo{
+    position: relative;
+    right:-10%;
+    z-index: 2;
+    width: 20%;
+}
+#link-steam{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}

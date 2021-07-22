@@ -1,0 +1,91 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#header-search {
+    display: flex;
+    background-color: #3F3F3F;
+    padding: 1rem;
+    align-items: center;
+    height: 2vh;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1111;
+    -webkit-box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.6); 
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.6);
+    padding-bottom: 2vh;
+    p{
+        padding-left: 1.1rem;
+        font-weight: bold;
+        color:white;
+    }
+}
+.burger{
+    display: flex;
+    width: 8%;
+    height: 4vh;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.burger-line{
+    height: 0.7vh;
+    width: auto;
+    background-color: white;
+}
+#Menu{
+    background-color: #3F3F3F;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    position: absolute;
+    top:5.9vh;
+    left:0;
+    height:34vh;
+    width:100%;
+    z-index:111;
+    -webkit-box-shadow: 4px 15px 15px -3px rgba(0,0,0,0.6); 
+    box-shadow: 4px 15px 15px -3px rgba(0,0,0,0.6);
+}
+.link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding:0.4rem;
+    font-size: 1.1rem;
+}
+.link:visited{
+    text-decoration: none;
+    color: white
+}
+#header-image{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    border-bottom-left-radius : 35%;
+}
+
+#header-logo{
+    display: flex;
+    align-self: center;
+    object-fit: contain;
+    width: 100%;
+    height: 15vh;
+    z-index: 2;
+}
+
+#space{
+    height:5.9vh;
+}
+#black-hover {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+}
