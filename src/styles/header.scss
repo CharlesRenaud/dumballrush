@@ -1,14 +1,14 @@
 #header{
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 40vh;
 }
 #header-search {
     display: flex;
     background-color: #3F3F3F;
     padding: 1rem;
     align-items: center;
-    height: 2vh;
+    height: 3.5vh;
     position: fixed;
     top:0;
     width:100%;

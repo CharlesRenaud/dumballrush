@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #B3E8F6;
+    height: 15vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+#social-box{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.social{
+    object-fit: contain;
+    width: 16.6%;
+}
