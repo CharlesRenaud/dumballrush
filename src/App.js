@@ -36,9 +36,7 @@ const App = () =>  {
             <Contact />
           </Route>
         </div>
-        <div id="footer">
         <Footer />
-        </div>
       </Router>
     </div>
   );

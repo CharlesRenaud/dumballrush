@@ -11,14 +11,12 @@ import "../styles/footer.scss";
 const Footer = () => {
     return (
         <div className="footer">
-            <div id="social-box">
                 <img className="social" src={instagram} />
                 <img className="social" src={twitter} />
                 <img className="social" src={linkedin} />
                 <img className="social" src={discord} />
                 <img className="social" src={tiktok} />
                 <img className="social" src={steam} />
-            </div>
             <div id="logo">
 
             </div>            
