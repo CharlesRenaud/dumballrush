@@ -1,8 +1,9 @@
 .footer{
-    display: flex;
     background-color: #B3E8F6;
-    height: 10vh;
+    height: auto;
     width: 100%;
+    position: relative;
+    top:2%;
 }
 .social{
     object-fit: contain;
