@@ -11,15 +11,12 @@ import "../styles/footer.scss";
 const Footer = () => {
     return (
         <div className="footer">
-                <img className="social" src={instagram} />
-                <img className="social" src={twitter} />
-                <img className="social" src={linkedin} />
-                <img className="social" src={discord} />
-                <img className="social" src={tiktok} />
-                <img className="social" src={steam} />
-            <div id="logo">
-
-            </div>            
+            <div className="social" style={{ backgroundImage: `url(${instagram})` }}></div>
+            <div className="social" style={{ backgroundImage: `url(${twitter})` }}></div>
+            <div className="social" style={{ backgroundImage: `url(${linkedin})` }}></div>
+            <div className="social" style={{ backgroundImage: `url(${discord})` }}></div>
+            <div className="social" style={{ backgroundImage: `url(${tiktok})` }}></div>
+            <div className="social" style={{ backgroundImage: `url(${steam})` }}></div>           
         </div>
     );
 };

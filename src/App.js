@@ -18,8 +18,10 @@ const App = () =>  {
 
     <div className="App" style={{boxSizing:"border-box"}}>
       <Router>
-      <Header />
-        <div>
+      <div className="header-box">
+        <Header />
+      </div>  
+        <div className="content-box">
           <Route exact path="/">
             <Homepage />
           </Route>
@@ -36,7 +38,9 @@ const App = () =>  {
             <Contact />
           </Route>
         </div>
+        <div className="footer-box">
         <Footer />
+      </div>  
       </Router>
     </div>
   );

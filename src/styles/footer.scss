@@ -1,11 +1,11 @@
 .footer{
-    background-color: #B3E8F6;
-    height: auto;
     width: 100%;
-    position: relative;
-    top:2%;
+    display: flex;
+    flex-wrap: nowrap;
 }
+
 .social{
-    object-fit: contain;
-    width: 16.667%;
+    width : 16.67%;
+    background-size: cover;
+    height:10vh;
 }

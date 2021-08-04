@@ -1,5 +1,5 @@
 .App{
-    height:100vh;
+    height:auto;
     box-sizing: border-box;
     background-color: #B3E8F6;
     display: flex;
@@ -8,3 +8,18 @@
     margin:0;
 }
 
+.header-box{
+    height: 35vh;
+}
+
+.content-box{
+    min-height: 55vh;
+    max-height: auto;
+
+}
+
+.footer-box{
+    height: 10vh;
+
+    
+}
