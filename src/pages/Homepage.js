@@ -10,6 +10,7 @@ import "../styles/homepage.scss";
 
 const Homepage = () => {
     return (
+    <div id='background'>
         <div id="trailer">
             <video autoPlay muted controls id="yt-video">
                 <source src={trailer}
@@ -17,6 +18,7 @@ const Homepage = () => {
             </video>
             <div style={{ backgroundImage: `url(${backgroundImage})` }} id="add-steam"> <a id="link-steam">add to wishlist <img id="steam-logo" src={steam}></img></a></div>
         </div>
+    </div>
     );
 };
 
